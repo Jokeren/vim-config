@@ -1,4 +1,10 @@
-filetype indent on                                                                                                                                           
+call plug#begin('~/.vim/plugged')
+
+Plug 'https://github.com/vim-scripts/taglist.vim.git'
+
+call plug#end()
+
+filetype indent on
 set completeopt=menu 
 
 " colorscheme
