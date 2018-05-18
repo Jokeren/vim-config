@@ -14,12 +14,13 @@ colorscheme desert
 " indentation
 set smartindent
 
-" set smarttab
-set expandtab
+" set expandtab
 set tabstop=2
 set shiftwidth=2
-set softtabstop=2
+set softtabstop=0
 set cinoptions=(1s
+set expandtab
+set smarttab
 
 " searching 
 set ignorecase
